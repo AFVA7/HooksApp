@@ -16,12 +16,13 @@ import './styles.css'
 // import './08-use-reducer/intro-reducer'
 // import { TodoApp } from './08-use-reducer/TodoApp'
 import { MainApp } from './09-use-context/MainApp'
+import { MemoHook } from './06-memos/MemoHook'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter >
     {/* <React.StrictMode> */}
-    <MainApp />
+    <MemoHook />
     {/* </React.StrictMode> */}
   </ BrowserRouter >
 )
